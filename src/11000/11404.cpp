@@ -45,19 +45,19 @@ int main(void) {
 		}
 	}
 
-	for (int a = 0; a < N; a++) {
-		for (int i = 1; i <= N; i++) { // 시작
-			for (int jj = 1; jj <= N; jj++) { // 끝
-				for (int kkk = 1; kkk <= N; kkk++) { // 거쳐갈거
-					int currentCost = map[i][jj];
-					int newCost = map[i][kkk] + map[kkk][jj];
+	//for (int a = 0; a < N; a++) {
+		for (int i = 1; i <= N; i++) { // 거쳐갈거
+			for (int jj = 1; jj <= N; jj++) { // 시작
+				for (int kkk = 1; kkk <= N; kkk++) { // 끝
+					int currentCost = map[jj][kkk];
+					int newCost = map[jj][i] + map[i][kkk];
 					if (currentCost > newCost) {
-						map[i][jj] = map[i][kkk] + map[kkk][jj];
+						map[jj][kkk] = map[jj][i] + map[i][kkk];
 					}
 				}
 			}
 		}
-	}
+	//}
 	
 	printMap();
 
