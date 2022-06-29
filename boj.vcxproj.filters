@@ -8,10 +8,6 @@
     <Filter Include="소스">
       <UniqueIdentifier>{59be4763-0b38-4aa0-b365-751429c85ae4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스\리소스 파일">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
     <Filter Include="소스\미해결">
       <UniqueIdentifier>{44b6e80a-b2fe-42c7-af27-094f22039c4b}</UniqueIdentifier>
     </Filter>
@@ -32,6 +28,9 @@
     </Filter>
     <Filter Include="소스\15000">
       <UniqueIdentifier>{8e767da9-bd19-4bed-b42c-40c05e16c244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스\7000">
+      <UniqueIdentifier>{9a93b1b1-dd24-4027-92f1-14185150623e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +108,33 @@
     </ClCompile>
     <ClCompile Include="src\15000\15596.cpp">
       <Filter>소스\15000</Filter>
+    </ClCompile>
+    <ClCompile Include="src\10000\10872.cpp">
+      <Filter>소스\10000</Filter>
+    </ClCompile>
+    <ClCompile Include="src\10000\10870.cpp">
+      <Filter>소스\10000</Filter>
+    </ClCompile>
+    <ClCompile Include="src\10000\11729.cpp">
+      <Filter>소스\11000</Filter>
+    </ClCompile>
+    <ClCompile Include="src\2000\2798.cpp">
+      <Filter>소스\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="src\2000\2231.cpp">
+      <Filter>소스\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="src\7000\7568.cpp">
+      <Filter>소스\7000</Filter>
+    </ClCompile>
+    <ClCompile Include="src\1000\1018.cpp">
+      <Filter>소스\미해결</Filter>
+    </ClCompile>
+    <ClCompile Include="src\11000\11724.cpp">
+      <Filter>소스\11000</Filter>
+    </ClCompile>
+    <ClCompile Include="src\1000\1260.cpp">
+      <Filter>소스\1000</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

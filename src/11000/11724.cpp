@@ -25,7 +25,7 @@ int main(void) {
 	queue<int> bfs;
 	int result = 0;
 	while(true) {
-		// ì‹œì‘ì  ì°¾ê¸°
+		// ½ÃÀÛÁ¡ Ã£±â
 		int start = -1;
 		for(int i=1; i<=vCount; i++) {
 			if(!isVisit[i]) {
@@ -34,7 +34,7 @@ int main(void) {
 			}
 		}
 		
-		// íƒìƒ‰í•˜ì§€ ì•Šì€ ê³³ì´ ì—†ë‹¤
+		// Å½»öÇÏÁö ¾ÊÀº °÷ÀÌ ¾ø´Ù
 		if(start == -1) {
 			break;
 		}
